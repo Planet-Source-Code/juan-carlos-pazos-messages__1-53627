@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=Mensajes devocionales
+
+
+[Package|Mensajes devocionales|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Paquete
+
+[Package|Mensajes devocionales|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mensajes devocionales|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mensajes devocionales|Files Found]
+
+[Package|Mensajes devocionales|Files Released]
+
+[Package|Mensajes devocionales|Missing Dependency Information]
+C:\WINDOWS\system32\msimg32.dll=
+
+[Package|Mensajes devocionales|Out-of-Date Dependency Information]
+
+[Package|Mensajes devocionales|Files Added]
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Config.ini=
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\mensajes.txt=
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.ico=
+
+[Package|Mensajes devocionales|Files Removed]
+
+[Package|Mensajes devocionales|Files In Project]
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Config.ini=Yes
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\mensajes.txt=Yes
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.ico=Yes
+
+[Package|Mensajes devocionales|Configure Registry Files]
+Applicable=No
+
+[Package|Mensajes devocionales|Configure Remote Servers]
+Applicable=No
+
+[Package|Mensajes devocionales|Install Locations]
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Config.ini=$(AppPath)
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\mensajes.txt=$(AppPath)
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.ico=$(AppPath)
+
+[Package|Mensajes devocionales|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.exe=No
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Config.ini=No
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\mensajes.txt=No
+C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Mensajes.ico=No
+
+[Package|Mensajes devocionales|Distribution]
+Type=single
+Size=
+Title=Mensajes Devocionales 1.0
+
+[Package|Mensajes devocionales|IconGroups]
+Group0=DataFox
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Mensajes devocionales|DataFox]
+Icon1=Mensajes.exe
+Title1=Mensajes Devocionales
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Mensajes devocionales|Package]
+PackageFolder=C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Paquete
+ProjectFolder=C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes
+ServerSideCab=
+File1=C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Paquete\setup.exe
+File2=C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Paquete\Setup.Lst
+File3=C:\Documents and Settings\Juan Carlos\Mis documentos\Visual Basic 6\Mensajes\Paquete\Mensajes.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
